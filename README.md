@@ -1,96 +1,120 @@
-# Ola Data Analysis
+# Ola Ride Booking Data Analytics
 
+## Project Overview
+
+This project analyzes ride booking data to understand customer demand patterns, driver performance, cancellation behavior, and revenue insights in a ride-hailing business model similar to Ola Cabs.
+
+Using **SQL, Python (Pandas, NumPy), and Power BI**, this project transforms raw ride booking data into actionable business insights for better operational and strategic decisions.
+
+---
+
+## Objectives
+
+✔ Analyze ride booking trends
+✔ Identify peak booking hours
+✔ Study customer & driver cancellation behavior
+✔ Calculate revenue and success rate KPIs
+✔ Perform city-wise and ride-type analysis
+✔ Build an interactive Power BI dashboard
+✔ Provide business recommendations
+
+---
+
+## 🛠 Tech Stack
+
+|    Technology          |    Purpose                     |
+| ---------------------- | ------------------------------ |
+| CSV (Excel)            | Dataset storage                |
+| Python (Pandas, NumPy) | Data cleaning & EDA            |
+| SQL                    | KPI calculation & aggregations |
+| Power BI               | Dashboard & visualization      |
+| PowerPoint             | Final presentation             |
+
+---
+
+## Repository Structure
+
+```
 Ola_Ride_Booking_Data_Analytics
-Project Overview
+│
+├── ola_ride_booking_data.csv
+├── Ola_Ride_Analysis.ipynb
+├── ola_ride_sql_analysis.sql
+├── Ola_Ride_Dashboard.pbix
+├── Ola_Ride_Presentation.pptx
+└── README.md
+```
 
-This project analyzes ride booking data to understand customer demand, driver performance, cancellation trends, and revenue patterns in a ride-hailing business model similar to Ola Cabs.
+---
 
-Using SQL, Python (Pandas/NumPy), and Power BI, the goal is to transform raw booking data into actionable insights that can support operational and strategic decision-making.
+##  Key Metrics Analyzed
 
-Objective
+|    KPI                 |    Description               |
+| ---------------------- | ---------------------------- |
+| Total Rides            | Overall ride bookings        |
+| Successful Rides       | Completed rides              |
+| Cancelled Rides        | Cancelled by customer/driver |
+| Cancellation Rate      | % of cancelled rides         |
+| Total Revenue          | Revenue generated            |
+| Revenue by Ride Type   | Contribution by category     |
+| Peak Booking Hours     | High demand time slots       |
+| City-wise Distribution | Ride demand by city          |
 
-The main objectives of this project are:
+---
 
-Analyze ride booking trends and peak demand hours
+## Analysis Process
 
-Identify high-revenue locations and ride types
+### Data Cleaning (Python)
 
-Study cancellation behavior (customer & driver side)
+* Removed null values
+* Standardized date & time format
+* Created calculated columns
+* Prepared dataset for SQL & BI
 
-Calculate key KPIs like total bookings, revenue, success rate
+### SQL Analysis
 
-Visualize performance using interactive dashboards
+* Aggregated total bookings
+* Calculated revenue metrics
+* Measured cancellation rates
+* Identified peak hours
 
-Provide business insights and recommendations
+### Dashboard (Power BI)
 
-Tech Stack
-Technology	Purpose
-CSV (Excel)	Dataset storage
-Python	Data cleaning, transformation, EDA
-SQL	Data extraction and KPI calculations
-Power BI	Dashboard creation
-PowerPoint	Project presentation
-Repository Structure
-├── ola_ride_booking_data.csv          # Raw ride booking dataset
-├── Ola_Ride_Analysis.ipynb            # Python exploratory analysis
-├── ola_ride_sql_analysis.sql          # SQL queries for KPIs
-├── Ola_Ride_Dashboard.pbix            # Power BI dashboard file
-├── Ola_Ride_Presentation.pptx         # Final project presentation
-├── README.md                          # Project documentation
-Key Metrics Analyzed
+* Interactive KPI cards
+* Revenue breakdown charts
+* Hourly booking trend graphs
+* City-wise ride comparison
 
-Total Rides
+---
 
-Successful vs Cancelled Rides
+## Business Insights
 
-Total Revenue
+🔹 Peak demand observed during evening hours
+🔹 Certain ride types generate higher revenue
+🔹 Customer cancellations higher during surge hours
+🔹 Specific cities contribute majority of bookings
 
-Revenue by Ride Type
+---
 
-Peak Booking Hours
+## How to Run
 
-City-wise Ride Distribution
+### Clone the Repository
 
-Driver & Customer Cancellation Rate
-
-How to Run
-
-Clone the repository
-
+```bash
 git clone https://github.com/RishikeshGawali/Ola_Ride_Booking_Data_Analytics.git
 cd Ola_Ride_Booking_Data_Analytics
+```
 
-Load the Dataset
+### Steps to Explore
 
-Open ola_ride_booking_data.csv in Python or Excel.
+1. Open the CSV file in Python
+2. Run the Jupyter Notebook for analysis
+3. Execute SQL queries
+4. Open `.pbix` file in Power BI Desktop
+5. Review presentation for full explanation
 
-Data Cleaning
+---
 
-Perform preprocessing using Python (handle null values, format dates, create new features).
+## Author
 
-SQL Analysis
-
-Execute queries from ola_ride_sql_analysis.sql to calculate KPIs.
-
-Power BI Dashboard
-
-Open .pbix file in Power BI Desktop to explore interactive dashboards.
-
-Presentation
-
-Use .pptx file for complete project explanation and business insights.
-
-Business Insights
-
-Identified peak demand hours to optimize driver allocation
-
-Detected high cancellation segments for operational improvement
-
-Analyzed revenue contribution by ride categories
-
-Suggested strategies to improve ride success rate
-
-Author
-
-Rishikesh Bharat Gawali
-Aspiring Data Analyst | SQL | Python | Power BI
+**Rishikesh Bharat Gawali**
