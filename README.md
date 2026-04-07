@@ -108,5 +108,5 @@ cd Ola_Ride_Booking_Data_Analytics
 
 **Rishikesh Bharat Gawali**
 📧 [rishigawali11@gmail.com](mailto:rishigawali11@gmail.com)
-🔗 LinkedIn
+🔗 [LinkedIn](https://www.linkedin.com/in/rishikesh-gawali-b3a510237/)
 
